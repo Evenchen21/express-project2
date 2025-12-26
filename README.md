@@ -35,8 +35,8 @@ touch .env
 
 ```env
 NODE_ENV=development
-PORT=9000
-MONGODB_URI="mongodb://localhost:27017/FSWeb"
+PORT=חסוי
+MONGODB_URI="חסוי"
 ```
 
 ## 🏃 הרצת הפרויקט

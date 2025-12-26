@@ -90,8 +90,6 @@ POST /api/products
 }
 ```
 
-**תשובה:** המוצר שנוצר עם `_id`
-
 ---
 
 ### עדכון מוצר
@@ -105,15 +103,14 @@ PUT /api/products/:productId
 **Body:** שדות לעדכון (כל השדות חובה)
 ```json
 {
-  "productid": 1,
-  "name": "Updated Phone",
-  "price": 3500,
-  "category": "smartphone",
-  "description": "Updated description"
+  "productid":_,
+  "name": "_",
+  "price": _,
+  "category": "_",
+  "description": "_"
 }
 ```
 
-**תשובה:** המוצר המעודכן
 
 ---
 
